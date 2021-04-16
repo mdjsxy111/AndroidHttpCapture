@@ -1,0 +1,28 @@
+<resources>
+    <string name="debug_list_title">接口列表</string>
+    <string name="debug_detail_title">接口详情</string>
+    <string name="debug_agent_package">代理抓包</string>
+    <string name="debug_site_name">代理抓包Demo</string>
+    <string name="debug_enter">开启抓包</string>
+    <string name="debug_agent">开启代理</string>
+    <string name="debug_net_setting">网络设置</string>
+    <string name="debug_net_initial">初始环境</string>
+    <string name="debug_requests">请求信息</string>
+    <string name="debug_clean">清理请求信息</string>
+    <string name="debug_clean_success">清理成功</string>
+    <string name="debug_json_null">json为空</string>
+    <string name="debug_json_irregular">json格式存在问题\n</string>
+    <string name="debug_net_add">添加</string>
+    <string name="debug_net_add_net">添加环境</string>
+    <string name="debug_net_add_mapping">添加映射</string>
+    <string name="debug_net_edit">编辑</string>
+    <string name="debug_net_delete">删除</string>
+    <string name="debug_net_custom_mapping">自定义映射</string>
+    <string name="floatview_permission_agree">现在去开启</string>
+    <string name="floatview_permission_cancel">暂不开启</string>
+    <string name="floatview_permission_content">您的手机没有授予悬浮窗权限，请开启后再试</string>
+    <string name="debug_json_view">Json显示</string>
+    <string name="debug_not_net">没有连网</string>
+    <string name="debug_mobile_net">移动网络</string>
+
+</resources>

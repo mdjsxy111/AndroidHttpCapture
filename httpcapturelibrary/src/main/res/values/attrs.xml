@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="JsonViewer">
+        <attr name="textColorString" format="color" />
+        <attr name="textColorBool" format="color" />
+        <attr name="textColorNull" format="color" />
+        <attr name="textColorNumber" format="color" />
+    </declare-styleable>
+</resources>

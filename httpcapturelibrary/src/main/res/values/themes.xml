@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_white</item>
+        <item name="colorPrimaryVariant">@color/color_white</item>
+        <item name="colorOnPrimary">@color/color_white</item>
+    </style>
+</resources>

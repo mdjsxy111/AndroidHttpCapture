@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidHttpCapture</string>
+    <string name="debug_enter">抓包入口</string>
+    <string name="get_agent">抓取Get请求</string>
+    <string name="post_agent">抓取Post请求</string>
+    <string name="h5_agent">抓取h5地址</string>
+</resources>

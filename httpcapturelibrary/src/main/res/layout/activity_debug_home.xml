@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.HttpCaptureHomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/debug_enter"
+        style="@style/Common_RelativeLayout_Style">
+
+        <TextView
+            style="@style/Common_TextView_Style"
+            android:text="@string/debug_enter"
+            android:textColor="@color/color_222" />
+
+        <CheckBox
+            android:id="@+id/cb_debug_enter"
+            style="@style/news_checkbox"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_1"
+        android:background="@color/color_eee" />
+
+    <TextView
+        android:id="@+id/tv_debug_net"
+        style="@style/Common_TextView_Style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="@color/color_white"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_15"
+        android:text="@string/debug_net_setting"
+        android:textColor="@color/color_222"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_1"
+        android:background="@color/color_eee"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_debug_requests"
+        style="@style/Common_TextView_Style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="@color/color_white"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_15"
+        android:text="@string/debug_requests"
+        android:textColor="@color/color_222" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_1"
+        android:background="@color/color_eee" />
+
+    <TextView
+        android:id="@+id/tv_debug_clean"
+        style="@style/Common_TextView_Style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="@color/color_white"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_15"
+        android:text="@string/debug_clean"
+        android:textColor="@color/color_222" />
+
+</LinearLayout>

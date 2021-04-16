@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/color_white"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.cdel.accmobile.httpcapture.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_15"
+        android:paddingBottom="@dimen/dp_10" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/debugRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

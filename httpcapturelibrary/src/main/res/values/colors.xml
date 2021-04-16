@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--global-color-->
+    <color name="main_color">#249ff6</color>
+    <color name="main_warn_color">#f2b53f</color>
+    <color name="color_eee">#eeeeee</color>
+    <color name="color_999">#999999</color>
+    <color name="color_666">#666666</color>
+    <color name="color_333">#333333</color>
+    <color name="color_222">#222222</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_retry">#0099ff</color>
+    <color name="text_color_555555">#555555</color>
+    <color name="common_title_view_background">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="common_title_view_text_color">#222222</color>
+    <color name="jsonViewer_textColorString">#008000</color>
+    <color name="jsonViewer_textColorNumber">#ee422e</color>
+    <color name="jsonViewer_textColorBool">#ff8c00</color>
+    <color name="jsonViewer_textColorNull">#808080</color>
+</resources>

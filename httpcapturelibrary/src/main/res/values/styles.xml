@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="JsonViewer.TextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">monospace</item>
+    </style>
+    <!--统一的左边图片文字 右边arrow的RelativeLayout-->
+    <style name="Common_RelativeLayout_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_50</item>
+        <item name="android:background">@color/color_white</item>
+        <item name="android:paddingLeft">@dimen/dp_15</item>
+        <item name="android:paddingRight">@dimen/dp_15</item>
+    </style>
+    <!--统一的左边图片文字 右边arrow的RelativeLayout里的TextView-->
+    <style name="Common_TextView_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:drawablePadding">@dimen/dp_10</item>
+        <item name="android:textColor">@color/color_222</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+    <style name="news_checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/news_checkbox_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:checked">false</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+</resources>

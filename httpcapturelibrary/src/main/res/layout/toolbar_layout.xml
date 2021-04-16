@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_44"
+    android:background="@color/common_title_view_background"
+    android:elevation="@dimen/dp_2"
+    android:paddingLeft="@dimen/dp_15"
+    android:paddingRight="@dimen/dp_15">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/bar_left_btn"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_20"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:background="@drawable/icon_nav_btn_back"
+            android:paddingLeft="@dimen/dp_10" />
+
+        <TextView
+            android:id="@+id/bar_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_30"
+            android:layout_toRightOf="@id/bar_left_btn"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="@string/debug_site_name"
+            android:textColor="@color/common_title_view_text_color"
+            android:textSize="@dimen/text_bar_title_size" />
+
+        <TextView
+            android:id="@+id/bar_right_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingRight="@dimen/dp_20"
+            android:textColor="@color/common_title_view_text_color"
+            android:textSize="@dimen/sp_15"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>

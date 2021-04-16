@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".debugging.activity.DebugDetailActivity">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_color"
+                android:gravity="center_vertical"
+                android:padding="@dimen/dp_6"
+                android:text="请求地址"
+                android:textColor="@color/color_white" />
+
+            <com.cdel.accmobile.httpcapture.widget.SelectableTextView
+                android:id="@+id/tv_url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_20"
+                android:text=""
+                android:textColor="@color/color_333"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/sp_15" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_color"
+                android:gravity="center_vertical"
+                android:padding="@dimen/dp_6"
+                android:text="请求参数"
+                android:textColor="@color/color_white" />
+
+            <com.cdel.accmobile.httpcapture.widget.SelectableTextView
+                android:id="@+id/requestJson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_20"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_color"
+                android:gravity="center_vertical"
+                android:padding="@dimen/dp_6"
+                android:text="返回数据"
+                android:textColor="@color/color_white" />
+
+            <com.cdel.accmobile.httpcapture.widget.SelectableTextView
+                android:id="@+id/responseJson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_20"
+                android:textIsSelectable="true" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_4"
+        android:layout_marginRight="@dimen/dp_4">
+
+        <ImageView
+            android:id="@+id/log_upload_progress"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_48"
+            android:src="@drawable/bg_log_float_window" />
+
+        <TextView
+            android:id="@+id/tv_debug_enter"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_48"
+            android:gravity="center"
+            android:padding="@dimen/dp_10"
+            android:text="@string/debug_net_initial"
+            android:textColor="@color/color_222"
+            android:textSize="@dimen/sp_10" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_debug_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:paddingTop="@dimen/dp_2"
+        android:paddingRight="@dimen/dp_2"
+        android:src="@drawable/dl_btn_delete" />
+
+</FrameLayout>
